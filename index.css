@@ -2,12 +2,19 @@ html, body{
     height: 100%
     
 }
-    .titulo{
-        font-size: 200%;
-        text-align: center;
+    body{
+        background-color: #cccccc;
     }
 
-    .paragrafo{
-        font-size: 140%;
-        text-align: center;
-    }
+        .titulo{
+            font-size: 200%;
+            text-align: center;
+        }
+
+        .paragrafo{
+            font-size: 140%;
+            text-align: center;
+        }   
+            .missao{
+                color: red;
+            }
