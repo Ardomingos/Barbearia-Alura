@@ -2,8 +2,8 @@ html, body{
     height: 150%
     
 }
-    body{
-        
+    .corpo{
+               
     }   
         .principal{
             background-color: #cccccc;
@@ -23,6 +23,7 @@ html, body{
                 font-size: 140%;
                 text-align: center;
                 margin-top: 2%;
+                margin-bottom: 1%;
             }   
                 .missao{
                     color: red;
@@ -31,9 +32,24 @@ html, body{
             
         .beneficios{
             background-color: white;
-            margin-left: 2%;
+            display: flex;
+            flex-wrap: wrap;
+            
         }               
             h2 {
                 font-size: 150%;
                 text-align: center;
+                margin-top: 2%;
+                width: 100%;
+                margin-bottom: 2%;
+            }
+
+            .lista{
+                display: inline;
+                width: 49%;
+                
+            }
+
+            .imagem-beneficios{
+                width: 50%;
             }
