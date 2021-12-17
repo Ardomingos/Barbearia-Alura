@@ -1,0 +1,13 @@
+html, body{
+    height: 100%
+    
+}
+    .titulo{
+        font-size: 200%;
+        text-align: center;
+    }
+
+    .paragrafo{
+        font-size: 140%;
+        text-align: center;
+    }
