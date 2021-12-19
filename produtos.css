@@ -1,5 +1,5 @@
 html, body{
-    height: 100%;
+    height: 115%;
 }
     header{
         height: 30%;
@@ -35,3 +35,34 @@ html, body{
                 text-decoration:underline;
                 color: rgb(161, 161, 31);
             }
+
+
+    main{
+        height: 60%;
+    }        
+
+
+
+
+
+
+
+    footer{
+        height: 15%;
+        background-color: black;
+        display: flex;
+       
+    }       
+        .logo-branco{
+            height: 100%;
+            margin-left: 2%;
+            width: 8%;
+        }
+
+        .copyright{
+            color: white;       
+            display: flex;
+            align-items: center;   
+            width: 75%;    
+            justify-content: center    
+        }
