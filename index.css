@@ -1,13 +1,43 @@
 html, body{
-    height: 125%
+    height: 115%
     
 }   
-    header h1{
-        font-size: 240%;
-        font-weight: bold;
-        margin: 0%;
-        padding-left: 2.5%;
+    
+header{
+    height: 30%;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+}   
+    .imagem-logo{
+        height: 90%;
     }
+
+        .menu{
+            width: 40%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+        }
+
+        .menu-navegaçao{
+            display: flex;
+            width: 35%;
+        }
+        
+
+        a{
+            text-decoration: none;
+            font-size: 200%;  
+            color: black;          
+        }
+
+        .menu-navegaçao a:hover {
+            text-decoration:underline;
+            color: rgb(223, 174, 15);
+        }
+
     .corpo{
                
     }   
@@ -60,3 +90,24 @@ html, body{
             .imagem-beneficios{
                 width: 50%;
             }
+
+
+    footer{
+        height: 15%;
+        background-color: black;
+        display: flex;
+       
+    }       
+        .logo-branco{
+            height: 100%;
+            margin-left: 2%;
+            width: 8%;
+        }
+
+        .copyright{
+            color: white;       
+            display: flex;
+            align-items: center;   
+            width: 75%;    
+            justify-content: center    
+        }
