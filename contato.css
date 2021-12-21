@@ -52,13 +52,13 @@ html, body{
 
         label{
             width: 51%;
-            margin-top: 2%;
+            
             font-size: 130%;
         }
 
         input{
-            width: 51%;
-            margin-top: 1%;
+            width: 50%;
+            
             height: 4%;
             padding-left: 1%;
 
