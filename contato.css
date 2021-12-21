@@ -27,7 +27,7 @@ html, body{
 
             a{
                 text-decoration: none;
-                font-size: 200%;  
+                font-size: 182%;  
                 color: black;          
             }
 
@@ -38,8 +38,36 @@ html, body{
 
     main{
         height: 64%;
-        
-    }          
+        display: flex;
+        justify-content: center;
+    }    
+
+        .formulario{
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            width: 60%;
+           
+        }
+
+        label{
+            width: 51%;
+            margin-top: 2%;
+            font-size: 130%;
+        }
+
+        input{
+            width: 51%;
+            margin-top: 1%;
+            height: 4%;
+            padding-left: 1%;
+
+        }
+
+        .submit{
+            width: 40%;
+            align-items: center;
+        }
  footer{
         height: 15%;
         background-color: black;

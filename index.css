@@ -1,10 +1,10 @@
 html, body{
-    height: 115%
+    height: 130%;
     
 }   
     
 header{
-    height: 21%;
+    height: 16.5%;
     background-color: #cccccc;
     display: flex;
     justify-content: space-between;
